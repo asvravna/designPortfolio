@@ -25,6 +25,8 @@ a, .btn {
 }
 
 /* DESKTOP NAV */
+
+
 nav, .nav-links {
     display: flex;
 }
@@ -54,13 +56,34 @@ a:hover {
     text-underline-offset: 1rem;
 }
 
+.logo-image {
+    padding-top: 3%;
+    width: 300px;  /* Adjust width as necessary */
+    height: auto;  /* Ensures the aspect ratio is maintained */
+}
+
 .logo {
     font-size: 2rem;
+    width: 100%;
+    
 }
 
 .logo:hover {
     cursor: default;   
 }
+.logo-container {
+    display: flex;
+    align-items: right; /* Align items vertically centered */
+}
+
+.logo-image {
+    width: 300px; /* Adjust size as necessary */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+
+
 
 /* HAMBURGER-MENU */
 #hamburger-nav {
@@ -353,3 +376,27 @@ article .icon {
     cursor: default;
 }
 
+/*PROJECTS SECTION*/
+
+
+.project-1 {
+    border-radius: 2rem;
+
+}
+
+/* Adjust spacing for article-container to ensure it doesn't show in the same frame as the button */
+#article-container {
+    margin-top: 120vh; /* Adjust as needed to ensure it doesn't show in the same frame */
+}
+
+.article-container {
+    padding: 10px;
+    background-color: rgb(255, 255, 255) 1px solid;
+    border: rgb(255, 255, 255) 1px solid;
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
