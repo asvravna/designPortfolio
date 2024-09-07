@@ -9,6 +9,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: white;
 }
 
 html {
@@ -29,7 +30,8 @@ a, .btn {
 
 nav, .nav-links {
     display: flex;
-    padding-right: 10%;
+    padding-right: 15%;
+    
 }
 
 nav {
@@ -60,6 +62,7 @@ a:hover {
     padding-top: 3%;
     width: 300px;  /* Adjust width as necessary */
     height: auto;  /* Ensures the aspect ratio is maintained */
+    padding-bottom: 3%;
 }
 
 .logo {
@@ -77,9 +80,10 @@ a:hover {
 }
 
 .logo-image {
+    padding-top: 5%;
     width: 300px; /* Adjust size as necessary */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Adjust spacing as needed */
+    margin-right: 2px; /* Adjust spacing as needed */
 }
 
 
@@ -220,10 +224,10 @@ section {
     gap:1rem;
     
 }
+.section {
+    background-color: lightblue;
+}
 
-/* .profile-pic-2 {
-    border-radius: 2rem;
-} */
 /*ICONS*/
 
 .icon{
@@ -303,7 +307,9 @@ section {
 }
 
 .about-pic {
+    position: sticky;
     border-radius: 2rem;
+    
 }
 
 .arrow {
@@ -382,6 +388,10 @@ article .icon {
 .project-1 {
     border-radius: 2rem;
 
+}
+.projects__description {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 /* Adjust spacing for article-container to ensure it doesn't show in the same frame as the button */
@@ -478,5 +488,5 @@ footer p {
 }
 
 .nav-links-container {
-    padding-left: 10%;
+    padding-left: 18%;
 }
