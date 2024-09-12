@@ -183,10 +183,16 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 40px;
+    width: 40px;
     margin: auto 0;
 
+}
+.profile-pic {
+    border-radius: 2rem;
+    height: 300;
+    width: 200;
+    
 }
 
 .section__text {
@@ -200,7 +206,9 @@ section {
 }
 
 .section__text__p1 {
+    padding-top: 200px;
     text-align: center;
+    font-size: large;
 
 
 }
@@ -304,12 +312,18 @@ section {
 .about-containers, 
 .about-details-container {
     display: flex;
+    padding-left: 10%;
 }
 
 .about-pic {
-    position: sticky;
     border-radius: 2rem;
+    height: 700;
+    width: 600;
     
+}
+.text-container {
+    font-size: larger;
+    font-style: italic;
 }
 
 .arrow {
@@ -436,7 +450,8 @@ article .icon {
 /*CONTACT*/
 
 #contact {
-    padding-top: 20%;
+
+    padding-top: 50%;
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -477,6 +492,7 @@ article .icon {
 
 /*FOOTER*/
 footer {
+    padding-top: 20%;
     height: 26vh;
     margin: 0 1rem;
 
