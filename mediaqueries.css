@@ -16,3 +16,27 @@
         display: none;
     }
 }
+
+
+/* Media queries to handle visibility based on screen size */
+@media (min-width: 800px) {
+    #desktop-nav {
+        display: flex;
+    }
+    #hamburger-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+}

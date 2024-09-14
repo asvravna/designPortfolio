@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <!-- <title>Anna's Portfolio</title> -->
+    <title>Anna Ravna</title>
+    <link rel="icon" href="./public/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+    <!-- <header>
+        <img src="./assets/Logo.png" alt="Anna Vylka Ravna Logo" class="header-logo"/>
+    </header> -->
+    <!-- Desktop Navigation -->
     <nav id="desktop-nav">
         <img src="./assets/Logo.png" alt="Anna Vylka Ravna Logo" class="logo-image" />
-        <div class="logo"></div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -20,24 +25,25 @@
             </ul>
         </div>
     </nav>
-    
+
+    <!-- Hamburger Menu -->
     <nav id="hamburger-nav">
-        <div class="logo"></div>
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <ul class="nav-links">
-                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-                </ul>
-            </div>
+        <img src="./assets/Logo.png" alt="Anna Vylka Ravna Logo" class="logo-image" />
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <ul class="nav-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
         </div>
     </nav>
+
     <section id= "profile">
         <div class="section_pic-container">
             <img src="./assets/about-pic.jpg"
@@ -162,49 +168,70 @@
                     </div>  
                 </div>
                 <div class="details-container">
-                    <!-- <h2 class="experience-sub-title">Programming</h2> -->
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png"
-                             alt="Experience icon"
-                             class="icon"
-                             />
-                             <div>
-                                <h3>Java</h3>
-                                <p>Experienced</p>
-                             </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png"
-                             alt="Experience icon"
-                             class="icon"
-                             />
-                             <div>
-                                <h3>Python</h3>
-                                <p>Basic</p>
-                             </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png"
-                             alt="Experience icon"
-                             class="icon"
-                             />
-                             <div>
-                                <h3>Git</h3>
-                                <p>Experienced</p>
-                             </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png"
-                             alt="Experience icon"
-                             class="icon"
-                             />
-                             <div>
-                                <h3>.NET/C#</h3>
-                                <p>Experienced</p>
-                             </div>
-                        </article>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                            <h3>Java</h3>
+                            <p>Experienced</p>
+                            </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                            <h3>Python</h3>
+                            <p>Basic</p>
+                            </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                            <h3>Git</h3>
+                            <p>Experienced</p>
+                            </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                            <h3>.NET/C#</h3>
+                            <p>Experienced</p>
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            <div class="timeline-points">
+                <div class="timeline-point" onclick="expandDetail(this)">
+                    <div class="tooltip">Job 1</div>
+                    <div class="detail">
+                        <h3>Job Title 1</h3>
+                        <p>Company Name 1</p>
+                        <p>Duration: Jan 2020 - Dec 2021</p>
                     </div>
+                </div>
+                <div class="timeline-point" onclick="expandDetail(this)">
+                    <div class="tooltip">Job 2</div>
+                    <div class="detail">
+                        <h3>Job Title 2</h3>
+                        <p>Company Name 2</p>
+                        <p>Duration: Feb 2019 - Dec 2019</p>
+                    </div>
+                </div>
+                <!-- Add more job points as needed -->
             </div>
         </div>
         <img 
@@ -216,16 +243,16 @@
     </section>
   
     <section id="projects">
-        <p class="section__text__p1">Browse my recent</p>
-        <h1 class=" title">Projects</h1>
+        <p class="section__text__pp1">Browse my recent</p>
+        <h1 class="title_for_projects">Projects</h1>
         <div class=" experience-details-container">
             <div class="about-containers"> 
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                            src="./assets/ferdig-prototype.png"
-                            alt="project 2"
-                            class="project-img"
+                        src="./assets/ferdig-prototype.png"
+                        alt="project 2"
+                        class="project-img"
                         />
                     </div>
                     <h2 class="experience-sub-title project-title">Project Three</h2>
@@ -301,7 +328,7 @@
         </div>
     </section>
     <section id="contact">
-        <p class="section__text__p1"> Get in touch!</p>
+        <p class="section__text__p1"> Get in touch</p>
         <h1 class="title"> Contact me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
