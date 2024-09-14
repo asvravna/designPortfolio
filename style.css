@@ -381,15 +381,16 @@ section {
 
 
 /* Styles for the timeline */
+/* Basic styling for the timeline container */
 .timeline-container {
     width: 100%;
     position: relative;
-    padding-top: 50px;
+    padding-top: 5px;
     margin: 0 auto;
 }
 
 .timeline-line {
-    width: 100%;
+    width: 101%;
     height: 2px;
     background-color: black;
     position: absolute;
@@ -405,11 +406,21 @@ section {
 
 .timeline-point {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: black;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.timeline-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black; /* Color of the arrow */
+    position: absolute;
+    right: -15px; /* Adjust this value to position the arrow */
 }
 
 .tooltip {
@@ -422,7 +433,7 @@ section {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .timeline-point:hover .tooltip {
@@ -430,6 +441,7 @@ section {
 }
 
 .detail {
+    font-size: large;
     display: none;
     position: absolute;
     top: -100px;
@@ -440,10 +452,28 @@ section {
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .detail.active {
+    display: block;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 9px;
+}
+
+/* Style for the expanded timeline point */
+.timeline-point.active .detail {
     display: block;
 }
 
@@ -514,10 +544,6 @@ article .icon {
     padding-left: 50%;
 
 }
-/* .title {
-    padding-left: 10%;
-
-} */
 
 .project-3 {
     border-radius: 15rem;
@@ -540,7 +566,6 @@ article .icon {
 /*CONTACT*/
 
 #contact {
-
     display:flex;
     justify-content: center;
     flex-direction: column;
