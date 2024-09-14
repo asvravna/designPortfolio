@@ -46,6 +46,16 @@ nav {
     font-size: 1.5rem;
 }
 
+.nav-links:hover {
+    color:#8EB4E5;
+}
+
+/* Change the background color and text color of the links on hover */
+#desktop-nav .nav-links li:hover a {
+    background-color: white;
+    color:#8EB4E5;
+}
+
 a {
 color: black;
 text-decoration: none;
@@ -175,6 +185,10 @@ section {
     gap: 5rem;
     height: 80vh;
 }
+.profile-title {
+    color: black;
+    font-size: xxx-large;
+}
 
 .section__pic-container {
     display: flex;
@@ -294,6 +308,9 @@ section {
 
 #about {
     position: relative;
+}
+.title {
+    color:#8EB4E5;
 }
 
 .about-containers {
@@ -502,6 +519,7 @@ article .icon {
     padding-left: 75%;
     font-size: xxx-large;
     padding-bottom: 3%;
+    color:#8EB4E5;
 
 
 }
@@ -606,7 +624,7 @@ article .icon {
 
 /*FOOTER*/
 footer {
-    padding-top: 20%;
+    padding-top: 0%;
     height: 26vh;
     margin: 0 1rem;
 
@@ -619,4 +637,9 @@ footer p {
 
 .nav-links-container {
     padding-left: 18%;
+}
+/* Change the background color and text color of the links on hover */
+.nav-links-container li:hover a {
+    background-color: white;
+    color: #8EB4E5;
 }
