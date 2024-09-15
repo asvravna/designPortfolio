@@ -16,7 +16,9 @@ function expandBox(element) {
     element.classList.add('expanded');
 }
 
-
+function openInNewTab(url) {
+    window.open(url, '_blank');
+}
 
 function expandDetail(element) {
     // Toggle the 'active' class on the clicked timeline-point

@@ -31,6 +31,7 @@ a, .btn {
 nav, .nav-links {
     display: flex;
     padding-right: 15%;
+    margin-right: 6%;
     
 }
 
@@ -104,7 +105,7 @@ a:hover {
     padding:0;
     margin:0;
     display: flex;
-    gap: 20px;
+    gap: 60px;
     font-size: xx-large;
     padding-right: 10%;
 }
@@ -320,6 +321,13 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    margin-left: -6%;
+}
+
+.text-container {
+    margin-left: 10%;
+    margin-top: 4%;
+
 }
 
 .about-containers, 
@@ -383,6 +391,7 @@ section {
     justify-content: center;
     flex-direction: column;
     padding-top: 2%;
+    padding-right: 10%;
 
 }
 
@@ -396,17 +405,16 @@ section {
 
 }
 
-
-/* Styles for the timeline */
-/* Basic styling for the timeline container */
 .timeline-container {
     width: 100%;
     position: relative;
     padding-top: 5px;
     margin: 0 auto;
+
 }
 
 .timeline-line {
+    margin-top: 1%;
     width: 101%;
     height: 2px;
     background-color: black;
@@ -414,11 +422,18 @@ section {
     top: 50%;
     left: 0;
 }
+.year-description {
+    font-size: smaller;
+    gap: 10%;
+    padding-top: 2%;
+
+}
 
 .timeline-points {
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-top: 2%;
 }
 
 .timeline-point {
@@ -427,6 +442,11 @@ section {
     height: 20px;
     background-color: black;
     border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: -10px; /* Adjust this value to align the points vertically with the line */
+    left: 50%;
+    transform: translateX(-50%);
     cursor: pointer;
 }
 
@@ -438,6 +458,8 @@ section {
     border-left: 10px solid black; /* Color of the arrow */
     position: absolute;
     right: -15px; /* Adjust this value to position the arrow */
+    margin-top: 1%;
+
 }
 
 .tooltip {
@@ -451,11 +473,19 @@ section {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 20px;
+    padding-top: 2%;
+
 }
 
 .timeline-point:hover .tooltip {
     display: block;
 }
+
+.timeline-points {
+    position: relative;
+    width: 100%;
+}
+
 
 .detail {
     font-size: large;
@@ -489,12 +519,23 @@ section {
     font-size: 9px;
 }
 
-/* Style for the expanded timeline point */
+
+.timeline-labels {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px; 
+}
+
+.year-description {
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+}
+
 .timeline-point.active .detail {
     display: block;
 }
-
-
 
 article {
     display: flex;

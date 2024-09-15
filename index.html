@@ -108,7 +108,7 @@
                 <div class="text-container">
                     <p>
                         <br>
-                        I am a 21 year old student from Tromsø, studying informatics at University of Oslo. I am currently studying research methods in Human-Computer-Interaction, as well as how public services and legal systems can automated to be more efficient. I have a great interest in software development, and like working with both backend and frontend technologies. 
+                        I am a 21 year old student from Tromsø, studying informatics at University of Oslo. I am currently studying research methods in Human-Computer-Interaction, as well as how public services and legal systems can automated to be more efficient. I have a great interest in software development, and I like working with both backend and frontend technologies. 
                     </p>
                 </div>
             </div>
@@ -214,9 +214,9 @@
         </div>
         <div class="timeline-container">
             <div class="timeline-line"></div>
-            <div class="timeline-arrow"></div>
+            <div class="timeline-arrow"></div> 
             <div class="timeline-points">
-                <div class="timeline-point" onclick="expandDetail(this)">
+                <div class="timeline-point" style="left: 50%;" onclick="expandDetail(this)">
                     <div class="tooltip">Seasonal position at Statnett</div>
                     <div class="detail">
                         <div class="close-btn" onclick="closeBox(event, this)">✖</div>
@@ -225,7 +225,20 @@
                         <p>From June 2024 - August 2024</p>
                     </div>
                 </div>
+                <div class="timeline-point" style="left: 70%;" onclick="expandDetail(this)">
+                    <div class="tooltip">Crew member at JavaZone</div>
+                    <div class="detail">
+                        <div class="close-btn" onclick="closeBox(event, this)">✖</div>
+                        <h3>Volunteer</h3>
+                        <h2>JavaZone</h2>
+                        <p>3rd - 5th of September 2024</p>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="timeline-labels">
+            <h1 class="year-description start">2024</h1>
+            <h1 class="year-description end">2025</h1>
         </div>
         <img 
         src="./assets/arrow.png"
@@ -234,7 +247,6 @@
         onclick="location.href='./#projects'"
         />
     </section>
-  
     <section id="projects">
         <p class="section__text__pp1">Browse my recent</p>
         <h1 class="title_for_projects">Projects</h1>
@@ -253,13 +265,13 @@
                     <div class="btn-container">
                         <button
                             class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://www.uio.no/studier/emner/matnat/ifi/IN1060/v24/prosjektgrupper/artifakt/'"
+                            <div onclick="openInNewTab('https://www.uio.no/studier/emner/matnat/ifi/IN1060/v24/prosjektgrupper/artifakt/')"
                         >
                         Project page
                         </button>
                         <button 
                         class="btn btn-color-2 project btn"
-                        onclick="location.href='https://www.youtube.com/watch?v=WG1hPkSvW0Y'"
+                        <div onclick="openInNewTab('https://www.youtube.com/watch?v=WG1hPkSvW0Y')"
                         >
                         Video
                         </button>
@@ -280,13 +292,13 @@
                 <div class="btn-container">
                     <button
                         class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://www.figma.com/proto/X1zN7miZLB6TZEGkxvIIsu/BeskyttBevis?node-id=1-30&starting-point-node-id=1%3A30&t=55pJw4rVdWrHex9F-1'"
+                        <div onclick="openInNewTab('https://www.figma.com/proto/X1zN7miZLB6TZEGkxvIIsu/BeskyttBevis?node-id=1-30&starting-point-node-id=1%3A30&t=55pJw4rVdWrHex9F-1')"
                     >
                     Live Demo
                     </button>
                     <button 
                     class="btn btn-color-2 project btn"
-                    onclick="location.href=window.open('./assets/Diplom Anna Ravna.pdf')"
+                    <div onclick="openInNewTab('./assets/Diplom Anna Ravna.pdf')"
                     >
                     Diploma
                     </button>
@@ -307,13 +319,13 @@
                 <div class="btn-container"> 
                     <button 
                     class="btn btn-color-2 project btn"
-                    onclick="location.href='https://www.figma.com/proto/va5i7v3bMuGhEVSSQQ5C1H/Wireframe-oblig-3?node-id=34-2&node-type=CANVAS&t=vO9Kjlck7YwwUxjS-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2'"
+                    <div onclick="openInNewTab('https://www.figma.com/proto/va5i7v3bMuGhEVSSQQ5C1H/Wireframe-oblig-3?node-id=34-2&node-type=CANVAS&t=vO9Kjlck7YwwUxjS-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2')"
                     >
                     Live Demo
                     </button>
                     <button 
                     class="btn btn-color-2 project btn"
-                    onclick="location.href='https://www.figma.com/board/txWby9CIWwnzXR9ch7sp9A/Prototyping-Embark?node-id=1-143&t=GMaepl7YYC5wLWvL-1'"
+                    <div onclick="openInNewTab('https://www.figma.com/board/txWby9CIWwnzXR9ch7sp9A/Prototyping-Embark?node-id=1-143&t=GMaepl7YYC5wLWvL-1')"
                     >
                     Prototyping process
                     </button>
