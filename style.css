@@ -190,6 +190,8 @@ section {
 .profile-title {
     color: black;
     font-size: xxx-large;
+    padding-bottom: 6%;
+
 }
 
 .section__pic-container {
@@ -214,12 +216,14 @@ section {
 
 .section__text p {
     font-weight: 600;
+
 }
 
 .section__text__p1 {
     padding-top: 200px;
     text-align: center;
     font-size: large;
+    padding-bottom: 2%;
 
 
 }
@@ -246,6 +250,9 @@ section {
 }
 .section {
     background-color: lightblue;
+}
+.btn btn-color-2{
+    margin-top: 10%;
 }
 
 /*ICONS*/
@@ -375,7 +382,7 @@ section {
     margin: auto 0;
 }
 
-/*EXPERIENCE*/
+/*Artworks*/
 #experience {
     position: relative;
 }
@@ -384,7 +391,6 @@ section {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
-    margin-bottom: 2rem;
 }
 
 .experience-details-container {
@@ -405,137 +411,15 @@ section {
     justify-content: space-around;
 
 }
-
-.timeline-container {
-    width: 100%;
-    position: relative;
-    padding-top: 5px;
-    margin: 0 auto;
+.art-img-1{
+    height: 450px;
+    width: 450px;
 
 }
+.art-img-2{
+    height: 500px;
+    width: 400px;
 
-.timeline-line {
-    margin-top: 1%;
-    width: 101%;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-.year-description {
-    font-size: smaller;
-    gap: 10%;
-    padding-top: 2%;
-
-}
-
-.timeline-points {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-top: 2%;
-}
-
-.timeline-point {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    top: -10px; /* Adjust this value to align the points vertically with the line */
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-}
-
-.timeline-arrow {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid black; /* Color of the arrow */
-    position: absolute;
-    right: -15px; /* Adjust this value to position the arrow */
-    margin-top: 1%;
-
-}
-
-.tooltip {
-    display: none;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 20px;
-    padding-top: 2%;
-
-}
-
-.timeline-point:hover .tooltip {
-    display: block;
-}
-
-.timeline-points {
-    position: relative;
-    width: 100%;
-}
-
-
-.detail {
-    font-size: large;
-    display: none;
-    position: absolute;
-    top: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-}
-
-.detail.active {
-    display: block;
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: black;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 2px 5px;
-    border-radius: 50%;
-    font-size: 9px;
-}
-
-
-.timeline-labels {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-top: 10px; 
-}
-
-.year-description {
-    margin: 0;
-    color: #555;
-    font-size: 16px;
-}
-
-.timeline-point.active .detail {
-    display: block;
 }
 
 article {
@@ -548,6 +432,7 @@ article {
 article .icon {
     cursor: default;
 }
+
 
 /*PROJECTS SECTION*/
 #projects {
