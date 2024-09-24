@@ -21,6 +21,7 @@
     }
     #experience, .experience-details-container {
         margin-top: 2rem;
+        width: 100%;
     }
 
     #profile,
@@ -41,8 +42,8 @@
     }
 
     .section__pic-container {
-        width: 275px; 
-        height: 275px;
+        width: 10px; 
+        height: 10px;
         margin: 0 auto 2rem;
     }
     .about-containers{
