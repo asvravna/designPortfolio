@@ -11,25 +11,27 @@
     href=
     "./assets/logo3.webp"
     type="image/x-icon"
-/>
+    />
 </head>
 <body>
-    <nav id="desktop-nav">
-        <p class= "Logo_text_1"> A. </p>
-        <img src="./assets/logo3.webp" alt="Anna Vylka Ravna Logo" class="logo-image" />
-        <p class= "Logo_text_2"> Ravna </p>
-
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
+    <div class="nav-section">
+        <nav id="desktop-nav">
+            <p class= "Logo_text_1"> A. </p>
+            <img src="./assets/logo3.webp" alt="Anna Vylka Ravna Logo" class="logo-image" />
+            <p class= "Logo_text_2"> Ravna </p>
+    
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- Hamburger Menu -->
+    <div class="hamburger-section">
     <nav id="hamburger-nav">
         <img src="./assets/Logo.png" alt="Anna Vylka Ravna Logo" class="logo-image" />
         <div class="hamburger-icon" onclick="toggleMenu()">
@@ -46,80 +48,85 @@
             </ul>
         </div>
     </nav>
-
-    <section id= "profile">
-        <div class="section_pic-container">
-            <img src="./assets/about-pic.jpg"
-                alt="Anna Ravna profile picture "
-                class="about-pic"
-                />
-        </div>
-        <div class="section__text">
-            <p class= "section__text__p1"> Hello I'm </p>
-            <h1 class="profile-title">Anna Sofie Vylka Ravna</h1>
-            <p class="section__text__p2">Developer/UX-designer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2"
-                    onclick= "window.open('./assets/CV_2024_0809.pdf')"
-                >
-                Download CV
-                </button>
-                <button class="btn btn-color-1"
-                    onclick= "location.href='./#contact'"
-                >
-                Contact info
-                </button>
+    </div>
+    <div>
+        <section id= "profile">
+            <div class="section_pic-container">
+                <img src="./assets/about-pic.jpg"
+                    alt="Anna Ravna profile picture "
+                    class="about-pic"
+                    />
             </div>
-            <div id ="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile"
-                class="icon"onclick="location.href='https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/'"
-                />
-                <img src="./assets/github.png" alt="My GitHub profile"
-                class="icon"onclick="location.href='https://github.com/asvravna'"
-                />
+            <div class="section__text">
+                <p class= "section__text__p1"> Hello I'm </p>
+                <h1 class="profile-title">Anna Sofie Vylka Ravna</h1>
+                <p class="section__text__p2">Developer/UX-designer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2"
+                        onclick= "window.open('./assets/CV_2024_0809.pdf')"
+                    >
+                    Download CV
+                    </button>
+                    <button class="btn btn-color-1"
+                        onclick= "location.href='./#contact'"
+                    >
+                    Contact info
+                    </button>
+                </div>
+                <div id ="socials-container">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+                    class="icon"onclick="location.href='https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/'"
+                    />
+                    <img src="./assets/github.png" alt="My GitHub profile"
+                    class="icon"onclick="location.href='https://github.com/asvravna'"
+                    />
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="about"> 
-        <p class="section__text__p1"> Get to know more</p>
-        <h1 class=" title"> About me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/Untitled.png" 
-                alt="Profile picture"
-                class="profile-pic"
-                />
-            </div>
-            <div class=" about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon"
-                        class="icon"
-                        />
-                        <h3>Experience</h3>
-                        <p>2+ years <br> Software developement</p>
+        </section> 
+    </div>
+    <div class="about-section">
+        <section id="about"> 
+            <p class="section__text__p1"> Get to know more</p>
+            <h1 class=" title"> About me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/Untitled.png" 
+                    alt="Profile picture"
+                    class="profile-pic"
+                    />
+                </div>
+                <div class=" about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon"
+                            class="icon"
+                            />
+                            <h3>Experience</h3>
+                            <p>2+ years <br> Software developement</p>
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="./assets/education.png" alt="Education icon"
+                            class="icon"
+                            />
+                            <h3>Education</h3>
+                            <p>2nd year of B.Sc Bachelors degree <br>Informatics: Design, Use and Interaction <br> University of Oslo</p>
+                         </div>
                     </div>
-                    <div class="details-container">
-                        <img 
-                        src="./assets/education.png" alt="Education icon"
-                        class="icon"
-                        />
-                        <h3>Education</h3>
-                        <p>2nd year of B.Sc Bachelors degree <br>Informatics: Design, Use and Interaction <br> University of Oslo</p>
-                     </div>
-                </div>
-                <div class="text-container">
-                    <p>
-                        <br>
-                        I am a 21 year old student from Tromsø, studying informatics at University of Oslo. I am currently studying research methods in Human-Computer-Interaction, as well as how public services and legal systems can automated to be more efficient. I have a great interest in software development, and I like working with both backend and frontend technologies. 
-                    </p>
+                    <div class="text-container">
+                        <p>
+                            <br>
+                            I am a 21 year old student from Tromsø, studying informatics at University of Oslo. I am currently studying research methods in Human-Computer-Interaction, as well as how public services and legal systems can automated to be more efficient. I have a great interest in software development, and I like working with both backend and frontend technologies. 
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#experience'"
-        />
-    </section>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'"
+            />
+        </section>
+    </div>
+    <div>
     <section id="experience">
         <p class="section__text__p1"> Explore my</p>
         <h1 class=" title"> Experience </h1>
@@ -250,123 +257,130 @@
         onclick="location.href='./#projects'"
         />
     </section>
-    <section id="projects">
-        <p class="section__text__pp1">Browse my recent</p>
-        <h1 class="title_for_projects">Projects</h1>
-        <div class=" experience-details-container">
-            <div class="about-containers"> 
-                <div class="details-container color-container">
-                    <div class="article-container">
+    </div>
+    <div class="projects-section">
+        <section id="projects">
+            <p class="section__text__pp1">Browse my recent</p>
+            <h1 class="title_for_projects">Projects</h1>
+            <div class=" experience-details-container">
+                <div class="about-containers"> 
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                            src="./assets/ferdig-prototype.png"
+                            alt="project 2"
+                            class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Three</h2>
+                        <p class="projects__description"> "20/20 Vision" is a tangible artifact developed with a participatory design-approach. With screen-time regulation functionality to reduce Computer Vision Syndrome and eye-strain caused by prolonged, monotonous computer use. As well as contributing to an overall enhanced working-environment for computer users, via regular breaks, focus-sessions and positive reinforcement. </p>
+                        <div class="btn-container">
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                <div onclick="openInNewTab('https://www.uio.no/studier/emner/matnat/ifi/IN1060/v24/prosjektgrupper/artifakt/')"
+                            >
+                            Project page
+                            </button>
+                            <button 
+                            class="btn btn-color-2 project btn"
+                            <div onclick="openInNewTab('https://www.youtube.com/watch?v=WG1hPkSvW0Y')"
+                            >
+                            Video
+                            </button>
+                        </div>
+                    </div>                    
+                <div 
+                    class="details-container color-container">
+                    <div 
+                        class="article-container">
                         <img 
-                        src="./assets/ferdig-prototype.png"
-                        alt="project 2"
-                        class="project-img"
-                        />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <p class="projects__description"> "20/20 Vision" is a tangible artifact developed with a participatory design-approach. With screen-time regulation functionality to reduce Computer Vision Syndrome and eye-strain caused by prolonged, monotonous computer use. As well as contributing to an overall enhanced working-environment for computer users, via regular breaks, focus-sessions and positive reinforcement. </p>
+                            src="./assets/project-1.JPG"
+                            alt="project 2"
+                            class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two </h2>
+                        <p class="projects__description"> An application for encrypted storage of critical information for people in abusive relationships. Developed to help victims get better help from lawyers and institutions that need information and evidence in order to support them in cases of violence or abuse. Our finished project from Oslo Legal Hackathon 2024.</p>
                     <div class="btn-container">
                         <button
                             class="btn btn-color-2 project-btn"
-                            <div onclick="openInNewTab('https://www.uio.no/studier/emner/matnat/ifi/IN1060/v24/prosjektgrupper/artifakt/')"
+                            <div onclick="openInNewTab('https://www.figma.com/proto/X1zN7miZLB6TZEGkxvIIsu/BeskyttBevis?node-id=1-30&starting-point-node-id=1%3A30&t=55pJw4rVdWrHex9F-1')"
                         >
-                        Project page
+                        Live Demo
                         </button>
                         <button 
                         class="btn btn-color-2 project btn"
-                        <div onclick="openInNewTab('https://www.youtube.com/watch?v=WG1hPkSvW0Y')"
+                        <div onclick="openInNewTab('./assets/Diplom Anna Ravna.pdf')"
                         >
-                        Video
+                        Diploma
                         </button>
                     </div>
-                </div>                    
-            <div 
+                </div>
+                <div 
                 class="details-container color-container">
                 <div 
                     class="article-container">
                     <img 
-                        src="./assets/project-1.JPG"
-                        alt="project 2"
+                        src="./assets/project-3.png"
+                        alt="project 3"
                         class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two </h2>
-                    <p class="projects__description"> An application for encrypted storage of critical information for people in abusive relationships. Developed to help victims get better help from lawyers and institutions that need information and evidence in order to support them in cases of violence or abuse. Our finished project from Oslo Legal Hackathon 2024.</p>
-                <div class="btn-container">
-                    <button
-                        class="btn btn-color-2 project-btn"
-                        <div onclick="openInNewTab('https://www.figma.com/proto/X1zN7miZLB6TZEGkxvIIsu/BeskyttBevis?node-id=1-30&starting-point-node-id=1%3A30&t=55pJw4rVdWrHex9F-1')"
-                    >
-                    Live Demo
-                    </button>
-                    <button 
-                    class="btn btn-color-2 project btn"
-                    <div onclick="openInNewTab('./assets/Diplom Anna Ravna.pdf')"
-                    >
-                    Diploma
-                    </button>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <p class="projects__description">An application and a prototype for a voice-user-interface developed from working with dog owners in Oslo. The idea for the app is to assist dog owners in finding suitable places to walk their dog based on environmental factors such as road-salting, temperature, traffic, noise and parks/green areas.</p>
+                    <div class="btn-container"> 
+                        <button 
+                        class="btn btn-color-2 project btn"
+                        <div onclick="openInNewTab('https://www.figma.com/proto/va5i7v3bMuGhEVSSQQ5C1H/Wireframe-oblig-3?node-id=34-2&node-type=CANVAS&t=vO9Kjlck7YwwUxjS-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2')"
+                        >
+                        Live Demo
+                        </button>
+                        <button 
+                        class="btn btn-color-2 project btn"
+                        <div onclick="openInNewTab('https://www.figma.com/board/txWby9CIWwnzXR9ch7sp9A/Prototyping-Embark?node-id=1-143&t=GMaepl7YYC5wLWvL-1')"
+                        >
+                        Prototyping process
+                        </button>
                 </div>
             </div>
-            <div 
-            class="details-container color-container">
-            <div 
-                class="article-container">
-                <img 
-                    src="./assets/project-3.png"
-                    alt="project 3"
-                    class="project-img"
-                    />
+        </section>
+    </div>
+    <div class="contact-section">
+        <section id="contact">
+            <p class="section__text__p1"> Get in touch</p>
+            <h1 class="title"> Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="mailto:ansvravna@gmail.com"> ansvravna@gmail.com</a></
+                p>
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <p class="projects__description">An application and a prototype for a voice-user-interface developed from working with dog owners in Oslo. The idea for the app is to assist dog owners in finding suitable places to walk their dog based on environmental factors such as road-salting, temperature, traffic, noise and parks/green areas.</p>
-                <div class="btn-container"> 
-                    <button 
-                    class="btn btn-color-2 project btn"
-                    <div onclick="openInNewTab('https://www.figma.com/proto/va5i7v3bMuGhEVSSQQ5C1H/Wireframe-oblig-3?node-id=34-2&node-type=CANVAS&t=vO9Kjlck7YwwUxjS-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2')"
-                    >
-                    Live Demo
-                    </button>
-                    <button 
-                    class="btn btn-color-2 project btn"
-                    <div onclick="openInNewTab('https://www.figma.com/board/txWby9CIWwnzXR9ch7sp9A/Prototyping-Embark?node-id=1-143&t=GMaepl7YYC5wLWvL-1')"
-                    >
-                    Prototyping process
-                    </button>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/"> LinkedIn</a></
+                p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="contact">
-        <p class="section__text__p1"> Get in touch</p>
-        <h1 class="title"> Contact me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./assets/email.png" alt="Email icon"
-                class="icon contact-icon"
-            />
-            <p><a href="mailto:ansvravna@gmail.com"> ansvravna@gmail.com</a></
-            p>
-            </div>
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon"
-                class="icon contact-icon"
-            />
-            <p><a href="https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/"> LinkedIn</a></
-            p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2024 Anna Sofie Vylka Ravna. All rights reserved.</p>
+        <div class="footer-section">
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Anna Sofie Vylka Ravna. All rights reserved.</p>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
