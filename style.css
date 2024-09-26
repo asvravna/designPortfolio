@@ -28,8 +28,8 @@ a, .btn {
 /* DESKTOP NAV */
 
 .logo-image{
-    width: 500px;
-    height: 400px;
+    width: 210px;
+    height: 220px;
     overflow: hidden;
     padding-bottom: 10px;
     margin-bottom: 1%;
@@ -141,6 +141,10 @@ a:hover {
     padding: 10px 20px;
 }
 
+.logo-image {
+   
+} 
+
 .hamburger-icon {
     cursor: pointer;
     display: flex;
@@ -204,6 +208,8 @@ section {
     margin-top: 10%;
 
     display: flex;
+    height: 40px;
+    width: 40px;
     margin: auto 0;
 
 }
@@ -380,8 +386,9 @@ section {
 }
 
 .section__pic-container {
+    height: 400px;
+    width: 400px;
     margin: auto 0;
-    
 }
 
 /*EXPERIENCE*/
