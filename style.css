@@ -631,6 +631,9 @@ article .icon {
 
 }
 
+.experience-details-container{
+    padding-bottom: 10%;
+}
 .experience-sub-title{
     padding-top: 5rem;
 
@@ -638,9 +641,10 @@ article .icon {
 .this-website{
     padding-top: 15%;
     justify-content: center;
-    padding-left: 30%;
+    padding-left: 25%;
     width: 50%;
 }
+
 
 .details-container color-container2{
     padding-left: 20%;
