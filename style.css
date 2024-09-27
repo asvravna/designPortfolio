@@ -28,9 +28,8 @@ a, .btn {
 /* DESKTOP NAV */
 
 .logo-image{
-    width: 210px;
-    height: 220px;
-    overflow: hidden;
+    width: 200px;
+    height: 200px;
     padding-bottom: 10px;
     margin-bottom: 1%;
     padding-top: 3%;
@@ -60,7 +59,7 @@ a, .btn {
 
 nav, .nav-links {
     display: flex;
-    padding-right: 15%;
+    padding-right: 20%;
     margin-right: 6%;
     
 }
@@ -71,10 +70,10 @@ nav {
     height: 17vh;
 }
 .nav-links {
-    gap: 2rem;
+    gap: 0rem;
     flex-direction: row;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .nav-links:hover {
@@ -126,12 +125,13 @@ a:hover {
 
 .nav-links li {
     margin: 0;
+    font-size: smaller;
 }
 
 .nav-links a {
     text-decoration: none;
     color: black;
-    padding-right: 70%;
+    padding-right: 10%;
 
 }
 
@@ -140,10 +140,6 @@ a:hover {
     align-items: center;
     padding: 10px 20px;
 }
-
-.logo-image {
-   
-} 
 
 .hamburger-icon {
     cursor: pointer;
@@ -569,7 +565,7 @@ article .icon {
 /*PROJECTS SECTION*/
 #projects {
 
-    padding-bottom: 70%;
+    padding-bottom: 10%;
     padding-right: 30%;
     position: center;
 
@@ -640,12 +636,13 @@ article .icon {
 
 }
 .this.website{
-    padding-top: 0%;
     width: 50%;
 }
 
 .details-container color-container2{
-    padding-left: 5%;
+    padding-top: 5%;
+    padding-left: 20%;
+    margin-left: 20%;
     width: 50%;
     height: 20px;
 }
