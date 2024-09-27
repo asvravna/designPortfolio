@@ -635,8 +635,10 @@ article .icon {
     padding-top: 5rem;
 
 }
-.this.website{
+.this-website{
     padding-top: 15%;
+    justify-content: center;
+    padding-left: 30%;
     width: 50%;
 }
 
