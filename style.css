@@ -564,7 +564,7 @@ article .icon {
 
 /*PROJECTS SECTION*/
 #projects {
-
+    position: relative; 
     padding-bottom: 10%;
     padding-right: 30%;
     position: center;
@@ -656,6 +656,7 @@ article .icon {
 /*CONTACT*/
 
 #contact {
+    position: relative;
     display:flex;
     justify-content: center;
     flex-direction: column;
