@@ -71,3 +71,31 @@
 .btn btn-color-2{
     margin-top: 10%;
 }
+
+
+
+
+    <section id= "profile">
+        <div class="section_pic-container">
+            <img src="./assets/about-pic.jpg"
+                alt="Anna Ravna profile picture "
+                class="about-pic"
+                />
+        </div>
+        <div class="section__text">
+            <p class= "section__text__p1"> Hello I'm </p>
+            <h1 class="profile-title">Anna Sofie Vylka Ravna</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                    onclick= "window.open('./assets/CV_2024_0809.pdf')"
+                >
+                Paintings
+                </button>
+                <button class="btn btn-color-2"
+                    onclick= "location.href='./#contact'"
+                >
+                Photography
+                </button>
+            </div>
+        </div>
+    </section>

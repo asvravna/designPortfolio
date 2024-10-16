@@ -60,24 +60,34 @@ a, .btn {
 nav, .nav-links {
     display: flex;
     padding-right: 20%;
-    margin-right: 6%;
+    margin-right: 20%;
     
 }
 
 nav {
-    justify-content: space-around;
     align-items: center;
     height: 17vh;
+    white-space: nowrap;
 }
 .nav-links {
-    gap: 0rem;
+
     flex-direction: row;
     list-style: none;
     font-size: 1rem;
+    padding-right: 5%;
+}
+.nav-links ul{
+    margin-left: 0%;
+    padding-left: 0%;
 }
 
 .nav-links:hover {
     color:#8EB4E5;
+}
+.nav-links li a{
+    flex-direction: row;
+    margin-left: 0%;
+    padding-left: 0%;
 }
 
 /* Change the background color and text color of the links on hover */
