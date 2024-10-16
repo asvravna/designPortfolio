@@ -189,11 +189,18 @@ section {
 
 /*PROFILE SECTION*/
 
+
+
 #profile {
     display: flex;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+}
+
+.section__pic-container {
+    padding-top: 20%;
+    padding-right: 90%;
 }
 .profile-title {
     color: black;
