@@ -189,27 +189,20 @@ section {
 
 /*PROFILE SECTION*/
 
-
-
 #profile {
     display: flex;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
 }
-
-.section__pic-container {
-    padding-top: 20%;
-    padding-right: 90%;
-}
 .profile-title {
     color: black;
     font-size: xxx-large;
+    padding-bottom: 6%;
+
 }
 
 .section__pic-container {
-    margin-top: 10%;
-
     display: flex;
     height: 40px;
     width: 40px;
@@ -217,10 +210,9 @@ section {
 
 }
 .profile-pic {
-    margin-top: 10%;
     border-radius: 2rem;
-    height: 200;
-    width: 100;
+    height: 300;
+    width: 200;
     
 }
 
@@ -232,13 +224,14 @@ section {
 
 .section__text p {
     font-weight: 600;
+
 }
 
 .section__text__p1 {
     padding-top: 200px;
     text-align: center;
     font-size: large;
-
+    padding-bottom: 2%;
 
 }
 
@@ -246,7 +239,6 @@ section {
     font-size: 1.75rem;
     margin-bottom: 1rem;
     color:#8EB4E5;
-    
 
 }
 
@@ -264,6 +256,9 @@ section {
 }
 .section {
     background-color: lightblue;
+}
+.btn btn-color-2{
+    margin-top: 10%;
 }
 
 /*ICONS*/
