@@ -49,8 +49,14 @@
         height: 50%;
         width: 100%
     }
-    .section__text__p1{
+    .about-section {
+        margin-top: 10%;
+        
     }
+    .text-box{
+        margin-right: 18%;
+    }
+    
 
     .about-pic{
         width: 50%;
