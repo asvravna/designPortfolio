@@ -9,7 +9,7 @@
 }
 
 /* SMALL SCREEN STYLES */
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 366px) {
     #desktop-nav {
         display: flex;
     }
