@@ -31,6 +31,14 @@
     .section__text{
         display: block;
     }
+    .profile-section{
+         margin-left: 5%;
+       
+    }
+
+    .about-section{
+        padding-top: 20%;
+    }
 
     .logo-image{
         padding-left: -50%;
