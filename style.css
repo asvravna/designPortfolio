@@ -712,13 +712,13 @@ footer {
     padding-top: 0%;
     height: 26vh;
     margin: 0 1rem;
-    padding-right: 15%;
+    padding-left: 3%;
 
 }
 
 footer p {
     text-align: center;
-    padding-left: 20%;
+    padding-right: 5%;
 
 }
 

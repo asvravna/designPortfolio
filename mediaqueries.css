@@ -32,7 +32,7 @@
         display: block;
     }
     .profile-section{
-         margin-left: 5%;
+        margin-left: 5%;
        
     }
 
@@ -120,9 +120,7 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .nav-links-container {
 
-    }
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
         padding: 0;
@@ -169,7 +167,7 @@
         margin-left: 10%;
     }
     .about-details-container{
-        padding-top: 10%;
+        padding-right: 20%;
     }
     .about-containers{
         margin-top: 50%;
@@ -196,15 +194,13 @@
     #projects{
     width: 100%;
     }
-    .projects{
-    width: 100%;
 
-    }
     .projects-text{
         width: 100%;
-        padding-right: 50%;
+        padding-right: 90%;
+        margin-right: 30%;
         padding-top: 20%;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .section__text__pp1{
         width: 100%;
@@ -213,7 +209,7 @@
     }
     .title-for-projects{
         width: 100%;
-        margin-right: 100%;
+  
     }
     .experience-details-container{
         width: 100%;
@@ -221,14 +217,19 @@
     .about-containers, .details-container color-container{
         width: 100%;
     }
+
+    .footer {
+        padding-left: 50%;
+        margin-left: 50%;
+    }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     
     /* Contact and Footer Styles */
     #contact, footer {
         height: 40vh;
-        padding: 1rem; /* Add some padding for better spacing */
+        padding: 1rem; 
     }
     
     #profile {
@@ -238,6 +239,9 @@
     
     article {
         font-size: 1rem;
+    }
+    .socials-container {
+        padding-top: 20%;
     }
     
     footer nav {
@@ -295,18 +299,37 @@
         height: 350px;
         margin-left: 4%;
     }
-
+/* 
     .section__text__p1 {
         margin-top: -150px;
-    }
+    } */
 
     .profile-title {
         margin-left: 6%;
+    }
+    .projects-text{
+        width: 100%;
+        padding-right: 90%;
+        margin-right: 30%;
+        padding-top: 20%;
+        justify-content: center;
     }
 
     .section__text__p2 {
         padding-top: 4%;
         padding-bottom: 4%;
+    }
+    /* .footer-section {
+        padding-left: 10%; 
+        margin-left: 10%;
+    } */
+
+    .nav-links-container {
+         
+        margin-left: 30%;
+    }
+    .footer p {
+        padding-right: 60%;
     }
 
 }
