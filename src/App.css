@@ -1,6 +1,3 @@
-/* GENERAL */
-
-@import url('httpsfonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap');
 
 * {
     margin:  0; 
@@ -8,7 +5,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     background-color: white;
 }
 
@@ -34,14 +31,14 @@ a, .btn {
     margin-bottom: 1%;
     padding-top: 3%;
     margin-top: 2%;
-    height: auto;  /* Ensures the aspect ratio is maintained */
+    height: auto;  
     padding-top: 5%;
     max-width: 600px;
     object-fit: scale-down;
 }
 .Logo_text_1{
     margin-left: 0%;
-    font-size: xxx-large;
+    font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     opacity: 30%;
@@ -49,7 +46,7 @@ a, .btn {
 }
 
 .Logo_text_2{
-    font-size: xxx-large;
+    font-size: xx-large;
     margin-right: 20%;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -59,23 +56,24 @@ a, .btn {
 
 nav, .nav-links {
     display: flex;
-    padding-right: 20%;
     margin-right: 20%;
     
 }
 
 nav {
-    align-items: center;
+    align-items: right;
     height: 17vh;
     white-space: nowrap;
 }
-.nav-links {
 
-    flex-direction: row;
-    list-style: none;
-    font-size: 1rem;
-    padding-right: 5%;
-}
+
+.nav-links {
+    color: white;
+    font-size: large;
+    padding: 10px 10px;
+    align-self: center;
+  }
+
 .nav-links ul{
     margin-left: 0%;
     padding-left: 0%;
@@ -89,8 +87,11 @@ nav {
     margin-left: 0%;
     padding-left: 0%;
 }
+.desktop-nav {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
-/* Change the background color and text color of the links on hover */
 #desktop-nav .nav-links li:hover a {
     background-color: white;
     color:#8EB4E5;
@@ -173,7 +174,6 @@ a:hover {
     top: 50px;
     right: 20px;
     background-color: white;
-    /* border: 1px solid black; */
     padding: 10px;
 }
 
@@ -190,7 +190,6 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-
 }
 
 .section-container {
@@ -207,7 +206,7 @@ section {
 }
 .profile-title {
     color: black;
-    font-size: xxx-large;
+    font-size: 250%;
     padding-bottom: 6%;
 
 }
@@ -294,6 +293,26 @@ section {
     border-radius: 2rem;
 
 }
+.annasbtn{
+    border: rbg(53, 53, 53) 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1 rem solid;
+    padding: 10px;
+    z-index: 1000; /* Ensure it's on top */
+    position: relative; /* Ensure it can overlap correctly */
+    font-weight: 600;
+    transition: all 300ms ease ;
+    padding: 1rem;
+    width:8rem;
+    border-radius: 2rem;
+    background-color:white; 
+  }
+  
+    
+.btn btn-color-2 project btn:hover{
+    cursor:pointer;
+
+
+}
 
 .btn-color-1, .btn-color-2 {
     border: rbg(53, 53, 53) 0.1rem solid;
@@ -305,6 +324,7 @@ section {
 }
 
 .btn-color-1,
+ .annasbtn:hover,
  .btn-color-2:hover {
     background: rgb(53, 53, 53);
     color:white; 
@@ -340,6 +360,7 @@ section {
 
 .about-containers {
     gap: 2.5rem;
+    justify-content: center;
 }
 
 .about-details-container {
@@ -357,7 +378,6 @@ section {
 .about-containers, 
 .about-details-container {
     display: flex;
-    padding-left: 10%;
 }
 
 .about-pic {
@@ -576,23 +596,36 @@ article .icon {
 
 /*PROJECTS SECTION*/
 #projects {
-    position: relative; 
+    justify-content: center;
     padding-bottom: 10%;
-    padding-right: 30%;
     position: center;
+    padding-left: 5%;
+
+}
+.project-title-number{
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.experience-sub-title project-title h2{
+    font-style: italic;
+}
+
+.projects-text{
+    margin-top:30%;
+    justify-content: center;
 
 }
 .title_for_projects {
-    padding-left: 75%;
-    font-size: xxx-large;
+    padding-left: 40%;
+    font-size: 250%;
     padding-bottom: 3%;
     color:#8EB4E5;
-
-
 }
 .section__text__pp1 {
-    padding-left: 80%;
+    padding-left: 40%;
     font-size: 65;
+
 
 }
 
@@ -646,15 +679,13 @@ article .icon {
 .experience-details-container{
     padding-bottom: 10%;
 }
-.experience-sub-title{
-    padding-top: 5rem;
 
-}
 .this-website{
-    padding-top: 30%;
+    padding-top: 63%;
     justify-content: center;
     padding-left: 25%;
     width: 50%;
+    margin-bottom: 60%;
 }
 
 
@@ -673,6 +704,9 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    padding-top: 20%;
+    margin-bottom: 20%;
+
 }
 
 .contact-info-upper-container {
@@ -712,7 +746,6 @@ footer {
     padding-top: 0%;
     height: 26vh;
     margin: 0 1rem;
-    padding-left: 3%;
 
 }
 
