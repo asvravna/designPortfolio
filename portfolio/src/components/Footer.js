@@ -19,10 +19,6 @@ function Footer(){
                 <p>Copyright &#169; 2024 Anna Sofie Vylka Ravna. All rights reserved.</p>
             </div>
         </footer>
-
-
-        
-        
         </>
     )
 

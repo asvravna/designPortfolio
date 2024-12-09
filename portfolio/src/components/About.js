@@ -8,7 +8,6 @@ function About(){
     const handleIconClick = (url) => {
         window.open(url, '_blank');
       };
-
     return (
         <>
         <div className="about-section">
@@ -52,6 +51,5 @@ function About(){
     </>
     )
 }
-
 
 export default About;
