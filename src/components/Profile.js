@@ -36,7 +36,7 @@ function About(){
                 </div>
                     <div id ="socials-container">
                         <img src={linkedin} alt="My LinkedIn profile"
-                        className="icon"  onClick={() => openInNewTab('https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/')}
+                        className="icon"  onClick={() => openInNewTab('https://www.linkedin.com/in/anna-ravna-2849ba284/')}
                         />
                         <img src={github} alt="My GitHub profile"
                         className="icon" onClick={() => openInNewTab('https://github.com/asvravna')}

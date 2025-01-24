@@ -24,7 +24,7 @@ function Contact(){
                         <img src={linkedinicon} alt="LinkedIn icon"
                         className="icon contact-icon"
                     />
-                    <p><a onClick={() => openInNewTab('https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/')}> 
+                    <p><a onClick={() => openInNewTab('https://www.linkedin.com/in/anna-ravna-2849ba284/')}> 
                     LinkedIn</a></
                     p>
                     </div>
